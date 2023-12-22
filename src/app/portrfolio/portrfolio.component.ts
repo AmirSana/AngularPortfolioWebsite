@@ -10,7 +10,11 @@ import { ProjectsService } from '../_services/projects.service';
   styleUrls: ['./portrfolio.component.css'],
 })
 export class PortrfolioComponent implements OnInit {
+  [x: string]: any;
   projects!: Project[];
+
+  isCollapsed: boolean = true;
+  typescript: boolean = false;
 
   constructor(
     private titleService: Title,
@@ -21,5 +25,9 @@ export class PortrfolioComponent implements OnInit {
 
   ngOnInit(): void {
     this.projects = this.ProjectsService.GetProjects();
+  }
+
+  Filter() {
+    let filterTags: Tag[] = [];
   }
 }

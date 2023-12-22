@@ -1,1 +1,55 @@
-<p>resume works!</p>
+<div class="container text-center">
+  <button (click)="downloadFile()" class="btn btn-primary mb-5 shadow border">
+    Download PDF Resume
+  </button>
+
+  <accordion [isAnimated]="true" class="shadow">
+    <accordion-group heading="Arbeitserfahrung">
+      <div style="text-align: left">
+        <h2 class="mb-0">Kaufmann EFZ</h2>
+        <h3 class="text-primary">Arthrex Schweiz AG</h3>
+        <ul>
+          <li>Start Juli 2020 - Juli 2021</li>
+          <li>Praktium mit der Note 5.2 abgeschlossen</li>
+          <li>Praktisches Wissen ins Käufmannische Berufsleben</li>
+        </ul>
+      </div>
+    </accordion-group>
+
+    <accordion-group heading="Ausbildung">
+      <div style="text-align: left">
+        <h2 class="mb-0">Berufsmatur Wirtschaftsmittelschule Bern</h2>
+        <h3 class="text-primary">bwd Bern</h3>
+        <ul>
+          <li>Abgeschlossen im Jahr 2019</li>
+          <li>Abgeschlossen mit der Note 4.3</li>
+          <li>Vertiefung ins Kaufmännische Berufsleben</li>
+        </ul>
+      </div>
+    </accordion-group>
+
+    <accordion-group heading="Zertifikat">
+      <div style="text-align: left">
+        <h2 class="mb-0">Cambridge Zertifikat B2 Englisch</h2>
+        <h3 class="text-primary">bwd Bern</h3>
+        <ul>
+          <li>Abgeschlossen im Jahr 2019</li>
+          <li>Abgeschlossen mit der Note 4.5</li>
+          <li>Sprachkenntnis</li>
+        </ul>
+      </div>
+    </accordion-group>
+
+    <accordion-group heading="Hobby">
+      <div style="text-align: left">
+        <h2 class="mb-0"></h2>
+        <h3 class="text-primary">FC Belp</h3>
+        <ul>
+          <li>Angefangen im Jahr 2011</li>
+          <li>Momentan in der 2. Mannschaft</li>
+          <li>Links Mittelfeld (Positions)</li>
+        </ul>
+      </div>
+    </accordion-group>
+  </accordion>
+</div>
