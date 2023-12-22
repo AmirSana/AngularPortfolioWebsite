@@ -12,11 +12,11 @@ export class ProjectsService {
   projects: Project[] = [
     {
       id: 0,
-      name: 'Sample Python Project',
+      name: 'Shathanan Amirthalingam TaxWare',
       pictures: [
-        '../../assets/x4vfnJX - Imgur.png',
-        '../../assets/HJh7AjT - Imgur.png',
-        '../../assets/1bNL0Ft - Imgur.png',
+        'assets/x4vfnJX - Imgur.png',
+        'assets/HJh7AjT - Imgur.png',
+        'assets/1bNL0Ft - Imgur.png',
       ],
       projectLink: '//www.github.com',
       summary: 'Python project that analyzes stock market data.',
@@ -26,11 +26,11 @@ export class ProjectsService {
     },
     {
       id: 1,
-      name: 'Sample Angular App',
+      name: 'Shathanan Amirthalingam ALAN AG',
       pictures: [
-        '../../assets/x4vfnJX - Imgur.png',
-        '../../assets/HJh7AjT - Imgur.png',
-        '../../assets/1bNL0Ft - Imgur.png',
+        'assets/x4vfnJX - Imgur.png',
+        'assets/x4vfnJX - Imgur.png',
+        'assets/x4vfnJX - Imgur.png',
       ],
       projectLink: '//www.github.com',
       summary: 'Fullstack web app developed using Angular and Node.JS',
@@ -40,11 +40,11 @@ export class ProjectsService {
     },
     {
       id: 2,
-      name: 'Sample .Net App',
+      name: 'Shathanan Amirthalingam ONE IMMO AG',
       pictures: [
-        '../../assets/x4vfnJX - Imgur.png',
-        '../../assets/HJh7AjT - Imgur.png',
-        '../../assets/1bNL0Ft - Imgur.png',
+        'assets/x4vfnJX - Imgur.png',
+        'assets/HJh7AjT - Imgur.png',
+        'assets/1bNL0Ft - Imgur.png',
       ],
       projectLink: '//www.github.com',
       summary: 'Fullstack web app developed using React and ASP.NET',
@@ -56,9 +56,9 @@ export class ProjectsService {
       id: 3,
       name: 'Web API Project',
       pictures: [
-        '../../assets/x4vfnJX - Imgur.png',
-        '../../assets/HJh7AjT - Imgur.png',
-        '../../assets/1bNL0Ft - Imgur.png',
+        'assets/x4vfnJX - Imgur.png',
+        'assets/HJh7AjT - Imgur.png',
+        'assets/1bNL0Ft - Imgur.png',
       ],
       projectLink: '//www.github.com',
       summary: 'Web API Project that was developed for a class project.',
@@ -70,9 +70,9 @@ export class ProjectsService {
       id: 4,
       name: 'Chrome Extension',
       pictures: [
-        '../../assets/x4vfnJX - Imgur.png',
-        '../../assets/HJh7AjT - Imgur.png',
-        '../../assets/1bNL0Ft - Imgur.png',
+        'assets/x4vfnJX - Imgur.png',
+        'assets/HJh7AjT - Imgur.png',
+        'assets/1bNL0Ft - Imgur.png',
       ],
       projectLink: '//www.github.com',
       summary:
@@ -85,9 +85,9 @@ export class ProjectsService {
       id: 5,
       name: 'Mobile App',
       pictures: [
-        '../../assets/x4vfnJX - Imgur.png',
-        '../../assets/HJh7AjT - Imgur.png',
-        '../../assets/1bNL0Ft - Imgur.png',
+        'assets/x4vfnJX - Imgur.png',
+        'assets/HJh7AjT - Imgur.png',
+        'assets/1bNL0Ft - Imgur.png',
       ],
       projectLink: '//www.github.com',
       summary:
