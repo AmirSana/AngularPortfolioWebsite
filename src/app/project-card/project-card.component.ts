@@ -9,6 +9,7 @@ import { ProjectModalComponent } from '../project-modal/project-modal.component'
   styleUrls: ['./project-card.component.css'],
 })
 export class ProjectCardComponent {
+  [x: string]: any;
   @Input() project = {} as Project;
   bsModalRef?: BsModalRef;
 

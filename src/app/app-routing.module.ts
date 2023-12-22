@@ -6,15 +6,15 @@ import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-  {path: "home", component: HomeComponent},
-  {path: "portfolio", component: PortrfolioComponent},
-  {path: "resume", component: ResumeComponent},
-  {path: "contact", component: ContactComponent},
-  {path: "**", component: HomeComponent, pathMatch: "full"}
+  { path: 'home', component: HomeComponent },
+  { path: 'portfolio', component: PortrfolioComponent },
+  { path: 'resume', component: ResumeComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: '**', component: HomeComponent, pathMatch: 'full' },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
